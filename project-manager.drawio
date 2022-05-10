@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T12:27:53.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="1Og-kIskpWPN4TPm2e_4" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-10T12:44:39.179Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="_WOECUcyMGNhcXhf63jC" version="18.0.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2426" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="5000" math="0" shadow="0">
+    <mxGraphModel dx="5891" dy="2154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="5000" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1342,35 +1342,32 @@
         <mxCell id="B7V7IaM9gYt7S6QEFZPg-57" value="- startTime: ZonedDateTime    开始时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B7V7IaM9gYt7S6QEFZPg-54">
           <mxGeometry y="78" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="B7V7IaM9gYt7S6QEFZPg-58" value="- startDate: ZonedDateTime    j结束时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B7V7IaM9gYt7S6QEFZPg-54">
+        <mxCell id="B7V7IaM9gYt7S6QEFZPg-58" value="- finishTime: ZonedDateTime    结束时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B7V7IaM9gYt7S6QEFZPg-54">
           <mxGeometry y="104" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="B7V7IaM9gYt7S6QEFZPg-67" value="- baselines: List&lt;TaskBaseline&gt;    基线" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B7V7IaM9gYt7S6QEFZPg-54">
           <mxGeometry y="130" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="B7V7IaM9gYt7S6QEFZPg-59" value="TaskBaseline" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2270" y="2637" width="210" height="208" as="geometry" />
+          <mxGeometry x="2270" y="2637" width="250" height="182" as="geometry" />
         </mxCell>
         <mxCell id="B7V7IaM9gYt7S6QEFZPg-60" value="- taskId    任务Id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B7V7IaM9gYt7S6QEFZPg-59">
-          <mxGeometry y="26" width="210" height="26" as="geometry" />
+          <mxGeometry y="26" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="B7V7IaM9gYt7S6QEFZPg-61" value="- start: ZonedDateTime    开始时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B7V7IaM9gYt7S6QEFZPg-59">
-          <mxGeometry y="52" width="210" height="26" as="geometry" />
+        <mxCell id="B7V7IaM9gYt7S6QEFZPg-61" value="- startTime: ZonedDateTime    开始时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B7V7IaM9gYt7S6QEFZPg-59">
+          <mxGeometry y="52" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="B7V7IaM9gYt7S6QEFZPg-62" value="- finish: ZonedDateTime    结束时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B7V7IaM9gYt7S6QEFZPg-59">
-          <mxGeometry y="78" width="210" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="B7V7IaM9gYt7S6QEFZPg-63" value="- finish: ZonedDateTime    结束时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B7V7IaM9gYt7S6QEFZPg-59">
-          <mxGeometry y="104" width="210" height="26" as="geometry" />
+        <mxCell id="B7V7IaM9gYt7S6QEFZPg-63" value="- finishTime: ZonedDateTime    结束时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B7V7IaM9gYt7S6QEFZPg-59">
+          <mxGeometry y="78" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="B7V7IaM9gYt7S6QEFZPg-64" value="- manHour: Double    计划工时" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B7V7IaM9gYt7S6QEFZPg-59">
-          <mxGeometry y="130" width="210" height="26" as="geometry" />
+          <mxGeometry y="104" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="B7V7IaM9gYt7S6QEFZPg-65" value="- cost: Double    基线成本" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B7V7IaM9gYt7S6QEFZPg-59">
-          <mxGeometry y="156" width="210" height="26" as="geometry" />
+          <mxGeometry y="130" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="B7V7IaM9gYt7S6QEFZPg-66" value="- fixedCost: Double    固定成本" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B7V7IaM9gYt7S6QEFZPg-59">
-          <mxGeometry y="182" width="210" height="26" as="geometry" />
+          <mxGeometry y="156" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="B7V7IaM9gYt7S6QEFZPg-68" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=open;startFill=0;endArrow=diamondThin;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="B7V7IaM9gYt7S6QEFZPg-61" target="B7V7IaM9gYt7S6QEFZPg-67">
           <mxGeometry relative="1" as="geometry" />
