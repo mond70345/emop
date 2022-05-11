@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T20:37:12.341Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="8BsjU0yluMY7yUB7eYyB" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T20:53:55.123Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="sqIdRdnvugOWvq3KI3g3" version="18.0.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1093" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4600" pageHeight="3000" math="0" shadow="0">
       <root>
@@ -68,10 +68,10 @@
         <mxCell id="DC-7fMDGKw9MtQms55Px-54" value="- currency: Currency    币种" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DC-7fMDGKw9MtQms55Px-32" vertex="1">
           <mxGeometry y="178" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="DC-7fMDGKw9MtQms55Px-40" value="- urgencyId: UrgencyId    紧急程度Id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DC-7fMDGKw9MtQms55Px-32" vertex="1">
+        <mxCell id="DC-7fMDGKw9MtQms55Px-40" value="- urgency: UrgencyId    紧急程度Id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" parent="DC-7fMDGKw9MtQms55Px-32" vertex="1">
           <mxGeometry y="204" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="DC-7fMDGKw9MtQms55Px-38" value="- securityLevelId: SecurityLevelId    安全级别Id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DC-7fMDGKw9MtQms55Px-32" vertex="1">
+        <mxCell id="DC-7fMDGKw9MtQms55Px-38" value="- securityLevel: SecurityLevelId    安全级别Id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" parent="DC-7fMDGKw9MtQms55Px-32" vertex="1">
           <mxGeometry y="230" width="320" height="26" as="geometry" />
         </mxCell>
         <mxCell id="DC-7fMDGKw9MtQms55Px-39" value="- priorityId: PriorityId    优先级Id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DC-7fMDGKw9MtQms55Px-32" vertex="1">
@@ -442,7 +442,7 @@
         <mxCell id="xaXWIEfhId6lT726xvUP-34" value="- propConfigs: List&lt;PropertyConfiguration&gt;    工作项属性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Hxi5oiMrbfGEEpM-4Bx1-39" vertex="1">
           <mxGeometry y="156" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Hxi5oiMrbfGEEpM-4Bx1-54" value="BaseWorkItem" style="swimlane;fontStyle=3;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="Hxi5oiMrbfGEEpM-4Bx1-54" value="BaseWorkItem" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="2260" y="1267" width="310" height="316" as="geometry" />
         </mxCell>
         <mxCell id="Hxi5oiMrbfGEEpM-4Bx1-1" value="- type: WorkItemType    工作项类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Hxi5oiMrbfGEEpM-4Bx1-54" vertex="1">
@@ -472,7 +472,7 @@
         <mxCell id="Hxi5oiMrbfGEEpM-4Bx1-52" value="- actualFinishTime: ZonedDateTime    实际结束时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Hxi5oiMrbfGEEpM-4Bx1-54" vertex="1">
           <mxGeometry y="230" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Hxi5oiMrbfGEEpM-4Bx1-53" value="- status: WorkflowStatusID    工作项状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Hxi5oiMrbfGEEpM-4Bx1-54" vertex="1">
+        <mxCell id="Hxi5oiMrbfGEEpM-4Bx1-53" value="- status: WorkflowStatusID    工作项状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" parent="Hxi5oiMrbfGEEpM-4Bx1-54" vertex="1">
           <mxGeometry y="256" width="310" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Hxi5oiMrbfGEEpM-4Bx1-56" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="Hxi5oiMrbfGEEpM-4Bx1-54" vertex="1">
@@ -529,7 +529,7 @@
         <mxCell id="xaXWIEfhId6lT726xvUP-39" value="- severity: String    问题严重性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Hxi5oiMrbfGEEpM-4Bx1-68" vertex="1">
           <mxGeometry y="390" width="390" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="xaXWIEfhId6lT726xvUP-46" value="- urgencyId: UrgencyId    严重度ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" parent="Hxi5oiMrbfGEEpM-4Bx1-68" vertex="1">
+        <mxCell id="xaXWIEfhId6lT726xvUP-46" value="- urgency: UrgencyId    严重度ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" parent="Hxi5oiMrbfGEEpM-4Bx1-68" vertex="1">
           <mxGeometry y="416" width="390" height="26" as="geometry" />
         </mxCell>
         <mxCell id="xaXWIEfhId6lT726xvUP-45" value="- finderDept: DeptId    问题发现者部门ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" parent="Hxi5oiMrbfGEEpM-4Bx1-68" vertex="1">
@@ -751,10 +751,10 @@
         <mxCell id="s4KalK-dnCNQf5f8MQ_Z-27" value="- completePercent: Double    进度" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="s4KalK-dnCNQf5f8MQ_Z-4" vertex="1">
           <mxGeometry y="312" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="s4KalK-dnCNQf5f8MQ_Z-26" value="- principal: UserId    责任人Id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="s4KalK-dnCNQf5f8MQ_Z-4" vertex="1">
+        <mxCell id="s4KalK-dnCNQf5f8MQ_Z-26" value="- principal: UserId    责任人Id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" parent="s4KalK-dnCNQf5f8MQ_Z-4" vertex="1">
           <mxGeometry y="338" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="s4KalK-dnCNQf5f8MQ_Z-25" value="- owningUsers: Set&lt;UserId&gt;    参与人Ids" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="s4KalK-dnCNQf5f8MQ_Z-4" vertex="1">
+        <mxCell id="s4KalK-dnCNQf5f8MQ_Z-25" value="- owningUsers: Set&lt;UserId&gt;    参与人Ids" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" parent="s4KalK-dnCNQf5f8MQ_Z-4" vertex="1">
           <mxGeometry y="364" width="370" height="26" as="geometry" />
         </mxCell>
         <mxCell id="-mcRDKc0zju_STvuJ2zb-113" value="- attachmentRefs: List&lt;AttachmentRef&gt;    附件引用" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="s4KalK-dnCNQf5f8MQ_Z-4" vertex="1">
@@ -836,13 +836,13 @@
         <mxCell id="xaXWIEfhId6lT726xvUP-1" value="- primaryType: String    主对象类别" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="xaXWIEfhId6lT726xvUP-0" vertex="1">
           <mxGeometry y="26" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="xaXWIEfhId6lT726xvUP-2" value="- primaryId: Long    主对象ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="xaXWIEfhId6lT726xvUP-0" vertex="1">
+        <mxCell id="xaXWIEfhId6lT726xvUP-2" value="- primaryId: Long    主对象ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" parent="xaXWIEfhId6lT726xvUP-0" vertex="1">
           <mxGeometry y="52" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="xaXWIEfhId6lT726xvUP-3" value="- secondaryType: String    关联对象类别" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="xaXWIEfhId6lT726xvUP-0" vertex="1">
           <mxGeometry y="78" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="xaXWIEfhId6lT726xvUP-4" value="- secondaryId: Long    关联对象ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="xaXWIEfhId6lT726xvUP-0" vertex="1">
+        <mxCell id="xaXWIEfhId6lT726xvUP-4" value="- secondaryId: Long    关联对象ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" parent="xaXWIEfhId6lT726xvUP-0" vertex="1">
           <mxGeometry y="104" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="xaXWIEfhId6lT726xvUP-5" value="- relationship: String    关系" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="xaXWIEfhId6lT726xvUP-0" vertex="1">
@@ -1024,7 +1024,7 @@
         <mxCell id="B7V7IaM9gYt7S6QEFZPg-55" value="- name: String    基线名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="B7V7IaM9gYt7S6QEFZPg-54" vertex="1">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="B7V7IaM9gYt7S6QEFZPg-56" value="- projectId: PorjectId    项目Id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="B7V7IaM9gYt7S6QEFZPg-54" vertex="1">
+        <mxCell id="B7V7IaM9gYt7S6QEFZPg-56" value="- projectId: PorjectId    项目Id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" parent="B7V7IaM9gYt7S6QEFZPg-54" vertex="1">
           <mxGeometry y="52" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="B7V7IaM9gYt7S6QEFZPg-57" value="- startTime: ZonedDateTime    开始时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="B7V7IaM9gYt7S6QEFZPg-54" vertex="1">
@@ -1129,7 +1129,7 @@
         <mxCell id="Q_YU3QJ79yXloyO7g1Ih-27" value="- type: Type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Q_YU3QJ79yXloyO7g1Ih-25" vertex="1">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Q_YU3QJ79yXloyO7g1Ih-28" value="- refId: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Q_YU3QJ79yXloyO7g1Ih-25" vertex="1">
+        <mxCell id="Q_YU3QJ79yXloyO7g1Ih-28" value="- refId: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" parent="Q_YU3QJ79yXloyO7g1Ih-25" vertex="1">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="GXmNgnp2lqacb0gANE73-0" value="AttachmentRef" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
