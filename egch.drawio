@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-10T03:23:08.594Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="AgL3ZjOykaB5bBm0RdDd" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-10T03:24:08.740Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="MB7-nv__NROYKMWlcNRw" version="19.0.3" type="github">
   <diagram id="C1pqObuYRA7J3bohzl7f" name="Page-1">
     <mxGraphModel dx="10278" dy="3539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
       <root>
@@ -275,13 +275,13 @@
         <mxCell id="T1cl9DYxZVdn391FOhin-58" value="EGCHCaseDomain" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-6350" y="-2058" width="260" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="T1cl9DYxZVdn391FOhin-64" value="- funcDistinctId: FuncDistinctId    机能区分" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="T1cl9DYxZVdn391FOhin-58" vertex="1">
+        <mxCell id="T1cl9DYxZVdn391FOhin-64" value="- funcClassifCode: String    机能区分" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="T1cl9DYxZVdn391FOhin-58" vertex="1">
           <mxGeometry y="26" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T1cl9DYxZVdn391FOhin-65" value="- cmdtyDistinctId: CmdtyDistinctId    商品区分" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="T1cl9DYxZVdn391FOhin-58" vertex="1">
+        <mxCell id="T1cl9DYxZVdn391FOhin-65" value="- cmdtyClassifCode: String    商品区分" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="T1cl9DYxZVdn391FOhin-58" vertex="1">
           <mxGeometry y="52" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T1cl9DYxZVdn391FOhin-66" value="- bizTypeId: BizTypeId    业务种类" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="T1cl9DYxZVdn391FOhin-58" vertex="1">
+        <mxCell id="T1cl9DYxZVdn391FOhin-66" value="- bizTypeCode: String    业务种类" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="T1cl9DYxZVdn391FOhin-58" vertex="1">
           <mxGeometry y="78" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="T1cl9DYxZVdn391FOhin-57" value="- domainId: CaseDomainId    领域" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="T1cl9DYxZVdn391FOhin-58" vertex="1">
