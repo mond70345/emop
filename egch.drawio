@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-22T03:16:15.393Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="N2vDy4Uj-10Rw54Cgw7p" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-22T03:24:09.311Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="nojgj6QaHJ9shSMcJrrY" version="20.0.2" type="github">
   <diagram id="C1pqObuYRA7J3bohzl7f" name="Page-1">
-    <mxGraphModel dx="10185" dy="3582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="9813" dy="3431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -329,7 +329,7 @@
         <mxCell id="GLM6A3cR7_lc0yM1_VjN-27" value="- code: String    作业区代码" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="GLM6A3cR7_lc0yM1_VjN-10" vertex="1">
           <mxGeometry y="52" width="350" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="GLM6A3cR7_lc0yM1_VjN-28" value="- classification: WorkAreaClassifcation    工程区分" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="GLM6A3cR7_lc0yM1_VjN-10" vertex="1">
+        <mxCell id="GLM6A3cR7_lc0yM1_VjN-28" value="- classification: WorkAreaClassification    工程区分" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="GLM6A3cR7_lc0yM1_VjN-10" vertex="1">
           <mxGeometry y="78" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="GLM6A3cR7_lc0yM1_VjN-36" value="- deptId: String    所属部门Id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="GLM6A3cR7_lc0yM1_VjN-10" vertex="1">
@@ -365,16 +365,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qBLD1s6twBJvVPmJfgXp-1" value="&lt;&lt;enumeration&gt;&gt;&#xa;WorkAreaClassifcation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="qBLD1s6twBJvVPmJfgXp-1" value="&lt;&lt;enumeration&gt;&gt;&#xa;WorkAreaClassification" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-6890" y="-1068" width="240" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="qBLD1s6twBJvVPmJfgXp-2" value="COST_ENGINEERING    原价工程" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qBLD1s6twBJvVPmJfgXp-1">
+        <mxCell id="qBLD1s6twBJvVPmJfgXp-2" value="COST_ENGINEERING    原价工程" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="qBLD1s6twBJvVPmJfgXp-1" vertex="1">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qBLD1s6twBJvVPmJfgXp-3" value="DEFECT_ENGINEERING    问题工程" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qBLD1s6twBJvVPmJfgXp-1">
+        <mxCell id="qBLD1s6twBJvVPmJfgXp-3" value="DEFECT_ENGINEERING    问题工程" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="qBLD1s6twBJvVPmJfgXp-1" vertex="1">
           <mxGeometry y="52" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qBLD1s6twBJvVPmJfgXp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=circlePlus;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="GLM6A3cR7_lc0yM1_VjN-28" target="qBLD1s6twBJvVPmJfgXp-1">
+        <mxCell id="qBLD1s6twBJvVPmJfgXp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=circlePlus;startFill=0;endArrow=open;endFill=0;" parent="1" source="GLM6A3cR7_lc0yM1_VjN-28" target="qBLD1s6twBJvVPmJfgXp-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
