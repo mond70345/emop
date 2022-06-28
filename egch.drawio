@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T03:50:02.109Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="youqwZiLnZ_lC7H2smUo" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-28T04:38:47.558Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="k4shchNPUVeeDol0TDBK" version="20.0.3" type="github">
   <diagram id="C1pqObuYRA7J3bohzl7f" name="Page-1">
-    <mxGraphModel dx="11062" dy="4114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="10278" dy="3539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -478,13 +478,13 @@
         <mxCell id="op4yEBKry6xdWnr9ySDZ-44" value="- taskCost: EGCHTaskCost    任务成本" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="op4yEBKry6xdWnr9ySDZ-16" vertex="1">
           <mxGeometry y="416" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="I6Oc0mgDuTj7OWiy6FYd-4" value="- defectTask: Boolean    是否不具合任务" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="op4yEBKry6xdWnr9ySDZ-16">
+        <mxCell id="I6Oc0mgDuTj7OWiy6FYd-4" value="- defectTask: Boolean    是否不具合任务" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" parent="op4yEBKry6xdWnr9ySDZ-16" vertex="1">
           <mxGeometry y="442" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="I6Oc0mgDuTj7OWiy6FYd-1" value="- workingArea: EntityId    作业区" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="op4yEBKry6xdWnr9ySDZ-16">
+        <mxCell id="I6Oc0mgDuTj7OWiy6FYd-1" value="- workingArea: EntityId    作业区" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="op4yEBKry6xdWnr9ySDZ-16" vertex="1">
           <mxGeometry y="468" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="I6Oc0mgDuTj7OWiy6FYd-2" value="- workingEngineering: EntityId    作业区工程" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="op4yEBKry6xdWnr9ySDZ-16">
+        <mxCell id="I6Oc0mgDuTj7OWiy6FYd-2" value="- workingEngineering: EntityId    作业区工程" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="op4yEBKry6xdWnr9ySDZ-16" vertex="1">
           <mxGeometry y="494" width="370" height="26" as="geometry" />
         </mxCell>
         <mxCell id="op4yEBKry6xdWnr9ySDZ-33" value="- extProps: JSONObject    任务扩展属性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="op4yEBKry6xdWnr9ySDZ-16" vertex="1">
@@ -519,6 +519,36 @@
             <mxPoint x="-7440" y="-680" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="eNgOO5a5LfRJ-wPLDkfZ-1" value="&lt;&lt;enumeration&gt;&gt;&#xa;ExpenseType" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-6950" y="-710" width="240" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="eNgOO5a5LfRJ-wPLDkfZ-2" value="BUDGUCT    预算" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eNgOO5a5LfRJ-wPLDkfZ-1">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eNgOO5a5LfRJ-wPLDkfZ-3" value="REAPPRAISAL    见直" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eNgOO5a5LfRJ-wPLDkfZ-1">
+          <mxGeometry y="52" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eNgOO5a5LfRJ-wPLDkfZ-4" value="ACTUAL_COST    成本" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eNgOO5a5LfRJ-wPLDkfZ-1">
+          <mxGeometry y="78" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eNgOO5a5LfRJ-wPLDkfZ-5" value="&lt;&lt;enumeration&gt;&gt;&#xa;ExpenseCategory" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-6950" y="-590" width="240" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="eNgOO5a5LfRJ-wPLDkfZ-6" value="MAN_HOUR    工数卡" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eNgOO5a5LfRJ-wPLDkfZ-5">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eNgOO5a5LfRJ-wPLDkfZ-7" value="STOCK    储藏品" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eNgOO5a5LfRJ-wPLDkfZ-5">
+          <mxGeometry y="52" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eNgOO5a5LfRJ-wPLDkfZ-8" value="PURCHASE_BILL    购买伝票" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eNgOO5a5LfRJ-wPLDkfZ-5">
+          <mxGeometry y="78" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eNgOO5a5LfRJ-wPLDkfZ-9" value="BIZ_TRAVEL_BILL    出差伝票" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eNgOO5a5LfRJ-wPLDkfZ-5">
+          <mxGeometry y="104" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eNgOO5a5LfRJ-wPLDkfZ-10" value="OTHERS    其它" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eNgOO5a5LfRJ-wPLDkfZ-5">
+          <mxGeometry y="130" width="240" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
