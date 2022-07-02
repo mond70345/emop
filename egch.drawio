@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-02T09:26:05.910Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Y3rfYqMqGrLcEh96gC-A" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-02T09:27:33.205Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="KDt22JmfiY-kqjOtGiJu" version="20.0.4" type="github">
   <diagram id="C1pqObuYRA7J3bohzl7f" name="Page-1">
     <mxGraphModel dx="10422" dy="3754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
       <root>
@@ -205,7 +205,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="T1cl9DYxZVdn391FOhin-39" value="EGCHCase 案件" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="-6960" y="-2050" width="430" height="650" as="geometry" />
+          <mxGeometry x="-6940" y="-2090" width="430" height="650" as="geometry" />
         </mxCell>
         <mxCell id="T1cl9DYxZVdn391FOhin-59" value="- prodClassifCode: String    制品区分" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="T1cl9DYxZVdn391FOhin-39" vertex="1">
           <mxGeometry y="26" width="430" height="26" as="geometry" />
@@ -291,7 +291,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="T1cl9DYxZVdn391FOhin-58" value="EGCHCaseDomain" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-6350" y="-2058" width="260" height="130" as="geometry" />
+          <mxGeometry x="-6310" y="-2090" width="260" height="130" as="geometry" />
         </mxCell>
         <mxCell id="T1cl9DYxZVdn391FOhin-64" value="- funcClassifCode: String    机能区分" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="T1cl9DYxZVdn391FOhin-58" vertex="1">
           <mxGeometry y="26" width="260" height="26" as="geometry" />
@@ -308,7 +308,8 @@
         <mxCell id="b5ox0SlaFc0V9Cb4xuEo-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamondThin;startFill=1;endArrow=open;endFill=0;" parent="1" source="T1cl9DYxZVdn391FOhin-56" target="T1cl9DYxZVdn391FOhin-58" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-6260" y="-1973" />
+              <mxPoint x="-6510" y="-2020" />
+              <mxPoint x="-6510" y="-2020" />
             </Array>
           </mxGeometry>
         </mxCell>
