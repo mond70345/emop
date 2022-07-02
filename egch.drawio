@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-02T16:49:07.998Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="_mfyc0gYsjCfHG6LxJY5" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-02T16:49:33.650Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="JkKoZywLL3Kt5EcUPFa_" version="20.0.4" type="github">
   <diagram id="C1pqObuYRA7J3bohzl7f" name="Page-1">
-    <mxGraphModel dx="11844" dy="4508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="10354" dy="3718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -596,7 +596,7 @@
           <mxGeometry y="234" width="320" height="26" as="geometry" />
         </mxCell>
         <mxCell id="yUw7qyCRAOKWVWcaEYbg-10" value="ProjectExchangeCostRecord" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-7380" y="-120" width="320" height="390" as="geometry" />
+          <mxGeometry x="-7380" y="-140" width="320" height="390" as="geometry" />
         </mxCell>
         <mxCell id="yUw7qyCRAOKWVWcaEYbg-28" value="- exchangeNo: String    振替号" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="yUw7qyCRAOKWVWcaEYbg-10">
           <mxGeometry y="26" width="320" height="26" as="geometry" />
