@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-06T15:35:57.372Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="KXYmYeKAhkaVTmzvp6in" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-06T15:36:50.227Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="VDlFRYLe1kPQ1DgJObMm" version="20.0.4" type="github">
   <diagram id="C1pqObuYRA7J3bohzl7f" name="Page-1">
     <mxGraphModel dx="10093" dy="3567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
       <root>
@@ -663,10 +663,10 @@
         <mxCell id="5xqvUlVlUIx66x9Oxp6m-19" value="- constrNo: String    工事号" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="5xqvUlVlUIx66x9Oxp6m-12">
           <mxGeometry y="52" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="5xqvUlVlUIx66x9Oxp6m-20" value="- workingAreaCode: String    作业区代码" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5xqvUlVlUIx66x9Oxp6m-12">
+        <mxCell id="5xqvUlVlUIx66x9Oxp6m-20" value="- workingAreaId: Long    作业区Id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5xqvUlVlUIx66x9Oxp6m-12">
           <mxGeometry y="78" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="5xqvUlVlUIx66x9Oxp6m-21" value="- workingEnggCode: String    工程代码" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5xqvUlVlUIx66x9Oxp6m-12">
+        <mxCell id="5xqvUlVlUIx66x9Oxp6m-21" value="- workEngineeringId: Long    工程Id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5xqvUlVlUIx66x9Oxp6m-12">
           <mxGeometry y="104" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5xqvUlVlUIx66x9Oxp6m-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=circlePlus;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="5xqvUlVlUIx66x9Oxp6m-5" target="5xqvUlVlUIx66x9Oxp6m-12">
