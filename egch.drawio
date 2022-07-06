@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-06T14:49:44.185Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="PnbYU0Fh_-bfWr3ZHNjZ" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-06T15:35:57.372Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="KXYmYeKAhkaVTmzvp6in" version="20.0.4" type="github">
   <diagram id="C1pqObuYRA7J3bohzl7f" name="Page-1">
     <mxGraphModel dx="10093" dy="3567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
       <root>
@@ -534,7 +534,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eNgOO5a5LfRJ-wPLDkfZ-1" value="&lt;&lt;enumeration&gt;&gt;&#xa;ExpenseType" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-7030" y="-276" width="240" height="104" as="geometry" />
+          <mxGeometry x="-7030" y="-370" width="240" height="104" as="geometry" />
         </mxCell>
         <mxCell id="eNgOO5a5LfRJ-wPLDkfZ-2" value="BUDGUCT    预算" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="eNgOO5a5LfRJ-wPLDkfZ-1" vertex="1">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
@@ -546,7 +546,7 @@
           <mxGeometry y="78" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="eNgOO5a5LfRJ-wPLDkfZ-5" value="&lt;&lt;enumeration&gt;&gt;&#xa;ExpenseCategory" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-7030" y="-156" width="240" height="156" as="geometry" />
+          <mxGeometry x="-7030" y="-250" width="240" height="156" as="geometry" />
         </mxCell>
         <mxCell id="eNgOO5a5LfRJ-wPLDkfZ-6" value="MAN_HOUR    工数卡" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="eNgOO5a5LfRJ-wPLDkfZ-5" vertex="1">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
@@ -564,7 +564,7 @@
           <mxGeometry y="130" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="yUw7qyCRAOKWVWcaEYbg-3" value="EGCHProjectCostRecord" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="-7380" y="-470" width="320" height="260" as="geometry" />
+          <mxGeometry x="-7420" y="-520" width="320" height="260" as="geometry" />
         </mxCell>
         <mxCell id="yUw7qyCRAOKWVWcaEYbg-22" value="- caseNo: String    案件号" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="yUw7qyCRAOKWVWcaEYbg-3" vertex="1">
           <mxGeometry y="26" width="320" height="26" as="geometry" />
@@ -593,51 +593,6 @@
         <mxCell id="yUw7qyCRAOKWVWcaEYbg-21" value="- propExts： JSONObject    扩展属性" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="yUw7qyCRAOKWVWcaEYbg-3" vertex="1">
           <mxGeometry y="234" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="yUw7qyCRAOKWVWcaEYbg-10" value="EGCHProjectExchangeCostRecord" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="-7380" y="-140" width="320" height="390" as="geometry" />
-        </mxCell>
-        <mxCell id="yUw7qyCRAOKWVWcaEYbg-28" value="- exchangeNo: String    振替号" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="yUw7qyCRAOKWVWcaEYbg-10" vertex="1">
-          <mxGeometry y="26" width="320" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="yUw7qyCRAOKWVWcaEYbg-29" value="- seqNo: String    SEQ-NO" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="yUw7qyCRAOKWVWcaEYbg-10" vertex="1">
-          <mxGeometry y="52" width="320" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="yUw7qyCRAOKWVWcaEYbg-11" value="- reducedCaseNo: String    案件号(-)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="yUw7qyCRAOKWVWcaEYbg-10" vertex="1">
-          <mxGeometry y="78" width="320" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="yUw7qyCRAOKWVWcaEYbg-12" value="- reducedConstrNo: String    工事号(-)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="yUw7qyCRAOKWVWcaEYbg-10" vertex="1">
-          <mxGeometry y="104" width="320" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="yUw7qyCRAOKWVWcaEYbg-14" value="- reducedWorkingArea: EntityId    作业区(-)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="yUw7qyCRAOKWVWcaEYbg-10" vertex="1">
-          <mxGeometry y="130" width="320" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="yUw7qyCRAOKWVWcaEYbg-13" value="- reducedWorkEngineering:  EntityId    原价工程(-)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="yUw7qyCRAOKWVWcaEYbg-10" vertex="1">
-          <mxGeometry y="156" width="320" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="yUw7qyCRAOKWVWcaEYbg-24" value="- increasedCaseNo: String    案件号(+)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="yUw7qyCRAOKWVWcaEYbg-10" vertex="1">
-          <mxGeometry y="182" width="320" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="yUw7qyCRAOKWVWcaEYbg-25" value="- increasedConstrNo: String    工事号(+)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="yUw7qyCRAOKWVWcaEYbg-10" vertex="1">
-          <mxGeometry y="208" width="320" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="yUw7qyCRAOKWVWcaEYbg-26" value="- increasedWorkingArea: EntityId    作业区(+)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="yUw7qyCRAOKWVWcaEYbg-10" vertex="1">
-          <mxGeometry y="234" width="320" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="yUw7qyCRAOKWVWcaEYbg-27" value="- increasedWorkEngineering:  EntityId    原价工程(+)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="yUw7qyCRAOKWVWcaEYbg-10" vertex="1">
-          <mxGeometry y="260" width="320" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="yUw7qyCRAOKWVWcaEYbg-30" value="- costAmount: BigDecimal    费用金额" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="yUw7qyCRAOKWVWcaEYbg-10" vertex="1">
-          <mxGeometry y="286" width="320" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="yUw7qyCRAOKWVWcaEYbg-31" value="- defectClassif: String    问题区分" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="yUw7qyCRAOKWVWcaEYbg-10" vertex="1">
-          <mxGeometry y="312" width="320" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="yUw7qyCRAOKWVWcaEYbg-32" value="- exchangeDate: Date    振替年月" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="yUw7qyCRAOKWVWcaEYbg-10" vertex="1">
-          <mxGeometry y="338" width="320" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="yUw7qyCRAOKWVWcaEYbg-33" value="- reason: String    理由" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="yUw7qyCRAOKWVWcaEYbg-10" vertex="1">
-          <mxGeometry y="364" width="320" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="yUw7qyCRAOKWVWcaEYbg-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" parent="1" source="yUw7qyCRAOKWVWcaEYbg-3" target="GxSKCjoKLXwjwlFbCsBX-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-7259.318181818182" y="-1097" as="sourcePoint" />
@@ -645,21 +600,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yUw7qyCRAOKWVWcaEYbg-18" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="yUw7qyCRAOKWVWcaEYbg-17" vertex="1" connectable="0">
-          <mxGeometry x="-0.1826" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yUw7qyCRAOKWVWcaEYbg-34" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="yUw7qyCRAOKWVWcaEYbg-10" target="GxSKCjoKLXwjwlFbCsBX-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-7248.900487125957" y="-460" as="sourcePoint" />
-            <mxPoint x="-7612.76965901183" y="-1676" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-7220" y="-170" />
-              <mxPoint x="-7540" y="-170" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yUw7qyCRAOKWVWcaEYbg-35" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="yUw7qyCRAOKWVWcaEYbg-34" vertex="1" connectable="0">
           <mxGeometry x="-0.1826" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
