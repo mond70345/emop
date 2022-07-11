@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T19:25:17.255Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="DFdhW5xKw0oiauB9ffQn" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-11T19:38:34.904Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Qi2Nwpv7HlbKjioDE8tc" version="20.0.4" type="github">
   <diagram id="C1pqObuYRA7J3bohzl7f" name="Page-1">
     <mxGraphModel dx="10093" dy="3567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
       <root>
@@ -682,85 +682,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BArJerIwksq-i2fB8OeN-1" value="Defect" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-7680" y="-1140" width="390" height="702" as="geometry" />
+          <mxGeometry x="-7680" y="-1140" width="390" height="208" as="geometry" />
         </mxCell>
-        <mxCell id="BArJerIwksq-i2fB8OeN-2" value="- category: DefectCategory    不具合类别" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
+        <mxCell id="BArJerIwksq-i2fB8OeN-2" value="- category: DefectCategory    不具合类别" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
           <mxGeometry y="26" width="390" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BArJerIwksq-i2fB8OeN-3" value="- manufacturer: String    制作厂家" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
+        <mxCell id="BArJerIwksq-i2fB8OeN-3" value="- manufacturer: String    制作厂家" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
           <mxGeometry y="52" width="390" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BArJerIwksq-i2fB8OeN-4" value="- countermeasure: Boolean    是否对策" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
+        <mxCell id="BArJerIwksq-i2fB8OeN-30" value="- modelName: String    机种称呼(案件带出)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
           <mxGeometry y="78" width="390" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BArJerIwksq-i2fB8OeN-5" value="- source: String    问题来源" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
+        <mxCell id="BArJerIwksq-i2fB8OeN-4" value="- drawingNo: String    图纸号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
           <mxGeometry y="104" width="390" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BArJerIwksq-i2fB8OeN-6" value="- testingEnvironment: String    测试环境" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
+        <mxCell id="BArJerIwksq-i2fB8OeN-5" value="- saleAreaId: EntityId    生产据点(案件带出)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
           <mxGeometry y="130" width="390" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BArJerIwksq-i2fB8OeN-7" value="- softwareVersion: String    软件版本" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
+        <mxCell id="BArJerIwksq-i2fB8OeN-6" value="- responsibilityClassif: String    责任区分" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
           <mxGeometry y="156" width="390" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BArJerIwksq-i2fB8OeN-8" value="- protoStage: String    样机阶段" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
+        <mxCell id="BArJerIwksq-i2fB8OeN-31" value="- belongToPartOrFacility: String    归属部品/设备" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
           <mxGeometry y="182" width="390" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="BArJerIwksq-i2fB8OeN-9" value="- protoSubStage: String    样机子阶段" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
-          <mxGeometry y="208" width="390" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="BArJerIwksq-i2fB8OeN-10" value="- mainCategory: String    问题大类" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
-          <mxGeometry y="234" width="390" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="BArJerIwksq-i2fB8OeN-11" value="- sbuCategory: String    问题小类" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
-          <mxGeometry y="260" width="390" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="BArJerIwksq-i2fB8OeN-12" value="- faultCode: String    故障代码" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
-          <mxGeometry y="286" width="390" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="BArJerIwksq-i2fB8OeN-13" value="- issueType: String    问题描述与分类" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
-          <mxGeometry y="312" width="390" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="BArJerIwksq-i2fB8OeN-14" value="- testNumber: Integer    测试次数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
-          <mxGeometry y="338" width="390" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="BArJerIwksq-i2fB8OeN-15" value="- frequency: String    问题频率" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
-          <mxGeometry y="364" width="390" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="BArJerIwksq-i2fB8OeN-16" value="- severity: String    问题严重性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
-          <mxGeometry y="390" width="390" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="BArJerIwksq-i2fB8OeN-17" value="- urgency: UrgencyId    严重度ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
-          <mxGeometry y="416" width="390" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="BArJerIwksq-i2fB8OeN-18" value="- finderDept: DeptId    问题发现者部门ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
-          <mxGeometry y="442" width="390" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="BArJerIwksq-i2fB8OeN-19" value="- finder: UserId    问题发现者" style="text;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
-          <mxGeometry y="468" width="390" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="BArJerIwksq-i2fB8OeN-20" value="- handler: UserId    问题归口人" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
-          <mxGeometry y="494" width="390" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="BArJerIwksq-i2fB8OeN-21" value="- countermeasurePrincipal: UserId    问题对策责任人" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
-          <mxGeometry y="520" width="390" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="BArJerIwksq-i2fB8OeN-22" value="- analyser: UserId    问题分析人" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
-          <mxGeometry y="546" width="390" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="BArJerIwksq-i2fB8OeN-23" value="- countermeasureUser: UserId    问题对策人" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
-          <mxGeometry y="572" width="390" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="BArJerIwksq-i2fB8OeN-24" value="- countermeasureAuditor: UserId    问题对策审核人" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
-          <mxGeometry y="598" width="390" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="BArJerIwksq-i2fB8OeN-25" value="- problemReviewers: Set&lt;UserId&gt;    问题评审团队" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
-          <mxGeometry y="624" width="390" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="BArJerIwksq-i2fB8OeN-26" value="- reviewInformation: String    评审信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
-          <mxGeometry y="650" width="390" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="BArJerIwksq-i2fB8OeN-27" value="- extProps: JSONObject    问题扩展属性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BArJerIwksq-i2fB8OeN-1">
-          <mxGeometry y="676" width="390" height="26" as="geometry" />
         </mxCell>
         <mxCell id="BArJerIwksq-i2fB8OeN-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.707;exitY=0.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BArJerIwksq-i2fB8OeN-1" target="op4yEBKry6xdWnr9ySDZ-1">
           <mxGeometry relative="1" as="geometry">
