@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-12T19:46:56.288Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="cFfsY_cb9wQfxoDcn7qw" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-12T19:49:43.326Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="fjDUZFxlUufYYlF8H772" version="20.1.1" type="github">
   <diagram id="C1pqObuYRA7J3bohzl7f" name="Page-1">
     <mxGraphModel dx="10111" dy="3469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
       <root>
@@ -770,7 +770,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZoDWVtz-Jkx4ZJS01vSC-9" value="EGCHCaseQuote" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-5450" y="-1500" width="370" height="234" as="geometry" />
+          <mxGeometry x="-5450" y="-1500" width="370" height="338" as="geometry" />
         </mxCell>
         <mxCell id="ZoDWVtz-Jkx4ZJS01vSC-13" value="- caseNo: String    案件号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZoDWVtz-Jkx4ZJS01vSC-9">
           <mxGeometry y="26" width="370" height="26" as="geometry" />
@@ -790,14 +790,26 @@
         <mxCell id="ZoDWVtz-Jkx4ZJS01vSC-18" value="- mgmtFeeRatio: BigDecimal    管理费(%)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZoDWVtz-Jkx4ZJS01vSC-9">
           <mxGeometry y="156" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZoDWVtz-Jkx4ZJS01vSC-17" value="- negotiationFee: BigDecimal    交涉费(%)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZoDWVtz-Jkx4ZJS01vSC-9">
+        <mxCell id="ZoDWVtz-Jkx4ZJS01vSC-17" value="- negotiationFeeRatio: BigDecimal    交涉费(%)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZoDWVtz-Jkx4ZJS01vSC-9">
           <mxGeometry y="182" width="370" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZoDWVtz-Jkx4ZJS01vSC-27" value="- items: List&lt;EGCHPartFacilityCost&gt;    条目" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZoDWVtz-Jkx4ZJS01vSC-9">
           <mxGeometry y="208" width="370" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="ZoDWVtz-Jkx4ZJS01vSC-29" value="- mgmtFee: BigDecimal    管理费用" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZoDWVtz-Jkx4ZJS01vSC-9">
+          <mxGeometry y="234" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoDWVtz-Jkx4ZJS01vSC-30" value="- negotiationFee: BigDecimal    交涉费用" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZoDWVtz-Jkx4ZJS01vSC-9">
+          <mxGeometry y="260" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoDWVtz-Jkx4ZJS01vSC-24" value="- nonTaxQuote: BigDecimal    报价不含税" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZoDWVtz-Jkx4ZJS01vSC-9">
+          <mxGeometry y="286" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoDWVtz-Jkx4ZJS01vSC-31" value="- taxIncludedQuote: BigDecimal    报价含税" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZoDWVtz-Jkx4ZJS01vSC-9">
+          <mxGeometry y="312" width="370" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="ZoDWVtz-Jkx4ZJS01vSC-20" value="EGCHPartFacilityCost" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-4940" y="-1370" width="260" height="182" as="geometry" />
+          <mxGeometry x="-4940" y="-1370" width="260" height="156" as="geometry" />
         </mxCell>
         <mxCell id="ZoDWVtz-Jkx4ZJS01vSC-21" value="- name: String    部品/设备名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZoDWVtz-Jkx4ZJS01vSC-20">
           <mxGeometry y="26" width="260" height="26" as="geometry" />
@@ -808,14 +820,11 @@
         <mxCell id="ZoDWVtz-Jkx4ZJS01vSC-23" value="- unit: String    单位" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZoDWVtz-Jkx4ZJS01vSC-20">
           <mxGeometry y="78" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZoDWVtz-Jkx4ZJS01vSC-24" value="- nonTaxAmount: BigDecimal    不含税金额" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZoDWVtz-Jkx4ZJS01vSC-20">
+        <mxCell id="ZoDWVtz-Jkx4ZJS01vSC-25" value="- valueAddedTax: BigDecimal    增值税额" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZoDWVtz-Jkx4ZJS01vSC-20">
           <mxGeometry y="104" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZoDWVtz-Jkx4ZJS01vSC-25" value="- valueAddedTax: BigDecimal    增值税额" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZoDWVtz-Jkx4ZJS01vSC-20">
-          <mxGeometry y="130" width="260" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="ZoDWVtz-Jkx4ZJS01vSC-26" value="- taxIncludedAmount: BigDecimal    含税金额" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZoDWVtz-Jkx4ZJS01vSC-20">
-          <mxGeometry y="156" width="260" height="26" as="geometry" />
+          <mxGeometry y="130" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZoDWVtz-Jkx4ZJS01vSC-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=circlePlus;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="ZoDWVtz-Jkx4ZJS01vSC-27" target="ZoDWVtz-Jkx4ZJS01vSC-20">
           <mxGeometry relative="1" as="geometry">
