@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-16T16:23:43.838Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="p7ZYO8mIQuKN23ZWNw63" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-16T16:31:29.297Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="kQRBG65_YC6-i3tXxfwC" version="20.1.1" type="github">
   <diagram id="C1pqObuYRA7J3bohzl7f" name="Page-1">
     <mxGraphModel dx="10237" dy="3656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
       <root>
@@ -898,37 +898,61 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="t3x7uRHv2wBxE9qlElMp-24" value="EGCHCaseContractRound 案件合同回合" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-5240" y="-2110" width="360" height="286" as="geometry" />
+          <mxGeometry x="-5240" y="-2110" width="360" height="312" as="geometry" />
         </mxCell>
-        <mxCell id="t3x7uRHv2wBxE9qlElMp-25" value="- caseNo: String    案件号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t3x7uRHv2wBxE9qlElMp-24">
+        <mxCell id="t3x7uRHv2wBxE9qlElMp-50" value="- contractRound: Integer    合同回合" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t3x7uRHv2wBxE9qlElMp-24">
           <mxGeometry y="26" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="t3x7uRHv2wBxE9qlElMp-27" value="- contractNo: String    合同号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t3x7uRHv2wBxE9qlElMp-24">
+        <mxCell id="t3x7uRHv2wBxE9qlElMp-25" value="- caseNo: String    案件号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t3x7uRHv2wBxE9qlElMp-24">
           <mxGeometry y="52" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="t3x7uRHv2wBxE9qlElMp-29" value="- proportion: BigDecimal    占比" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t3x7uRHv2wBxE9qlElMp-24">
+        <mxCell id="t3x7uRHv2wBxE9qlElMp-27" value="- contractNo: String    合同号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t3x7uRHv2wBxE9qlElMp-24">
           <mxGeometry y="78" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="t3x7uRHv2wBxE9qlElMp-37" value="- taxIncludedAmount: BigDecimal    金额(含税)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t3x7uRHv2wBxE9qlElMp-24">
+        <mxCell id="t3x7uRHv2wBxE9qlElMp-29" value="- proportion: BigDecimal    占比" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t3x7uRHv2wBxE9qlElMp-24">
           <mxGeometry y="104" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="t3x7uRHv2wBxE9qlElMp-30" value="- noTaxAmount: BigDecimal    金额(不含税)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t3x7uRHv2wBxE9qlElMp-24">
+        <mxCell id="t3x7uRHv2wBxE9qlElMp-37" value="- taxIncludedAmount: BigDecimal    金额(含税)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t3x7uRHv2wBxE9qlElMp-24">
           <mxGeometry y="130" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="t3x7uRHv2wBxE9qlElMp-31" value="- syncFinancialStatus: SyncFinancialStatus    同步财务状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t3x7uRHv2wBxE9qlElMp-24">
+        <mxCell id="t3x7uRHv2wBxE9qlElMp-30" value="- noTaxAmount: BigDecimal    金额(不含税)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t3x7uRHv2wBxE9qlElMp-24">
           <mxGeometry y="156" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="t3x7uRHv2wBxE9qlElMp-33" value="- plannedPaymentDate: Date    请款计划时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t3x7uRHv2wBxE9qlElMp-24">
+        <mxCell id="t3x7uRHv2wBxE9qlElMp-31" value="- syncFinancialStatus: SyncFinancialStatus    同步财务状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t3x7uRHv2wBxE9qlElMp-24">
           <mxGeometry y="182" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="t3x7uRHv2wBxE9qlElMp-34" value="- plannedIncomingDate : Date    入金计划时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t3x7uRHv2wBxE9qlElMp-24">
+        <mxCell id="t3x7uRHv2wBxE9qlElMp-33" value="- plannedPaymentDate: Date    请款计划时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t3x7uRHv2wBxE9qlElMp-24">
           <mxGeometry y="208" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="t3x7uRHv2wBxE9qlElMp-35" value="- acceptanceDate: AcceptanceDate    （开票）验收时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t3x7uRHv2wBxE9qlElMp-24">
+        <mxCell id="t3x7uRHv2wBxE9qlElMp-34" value="- plannedIncomingDate : Date    入金计划时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t3x7uRHv2wBxE9qlElMp-24">
           <mxGeometry y="234" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="t3x7uRHv2wBxE9qlElMp-32" value="- auditStatus: AuditStatus    审批状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t3x7uRHv2wBxE9qlElMp-24">
+        <mxCell id="t3x7uRHv2wBxE9qlElMp-35" value="- acceptanceDate: AcceptanceDate    （开票）验收时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t3x7uRHv2wBxE9qlElMp-24">
           <mxGeometry y="260" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t3x7uRHv2wBxE9qlElMp-32" value="- auditStatus: AuditStatus    审批状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t3x7uRHv2wBxE9qlElMp-24">
+          <mxGeometry y="286" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t3x7uRHv2wBxE9qlElMp-38" value="OperatingRecord" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-4940" y="-2480" width="360" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="t3x7uRHv2wBxE9qlElMp-39" value="- instanceType: String    实体类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t3x7uRHv2wBxE9qlElMp-38">
+          <mxGeometry y="26" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t3x7uRHv2wBxE9qlElMp-40" value="- instanceId: String    实体ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t3x7uRHv2wBxE9qlElMp-38">
+          <mxGeometry y="52" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t3x7uRHv2wBxE9qlElMp-49" value="- scope: Scope 作用域" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t3x7uRHv2wBxE9qlElMp-38">
+          <mxGeometry y="78" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t3x7uRHv2wBxE9qlElMp-41" value="- action: ActionType 操作行为" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t3x7uRHv2wBxE9qlElMp-38">
+          <mxGeometry y="104" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t3x7uRHv2wBxE9qlElMp-44" value="- operatorId: UserId    操作者" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t3x7uRHv2wBxE9qlElMp-38">
+          <mxGeometry y="130" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t3x7uRHv2wBxE9qlElMp-46" value="- content: JSONObject&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t3x7uRHv2wBxE9qlElMp-38">
+          <mxGeometry y="156" width="360" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
