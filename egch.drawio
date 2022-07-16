@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-13T08:08:15.855Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="jNBtzE0Y99HWySwuUl_h" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-16T15:29:31.629Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="JDyJkYMbTx-X3G_0iZCB" version="20.1.1" type="github">
   <diagram id="C1pqObuYRA7J3bohzl7f" name="Page-1">
-    <mxGraphModel dx="11302" dy="4114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="11370" dy="4257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -202,7 +202,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="T1cl9DYxZVdn391FOhin-39" value="EGCHCase 案件" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="-5870" y="-2200" width="430" height="650" as="geometry" />
+          <mxGeometry x="-5870" y="-2330" width="430" height="650" as="geometry" />
         </mxCell>
         <mxCell id="T1cl9DYxZVdn391FOhin-59" value="- prodClassifCode: String    制品区分" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="T1cl9DYxZVdn391FOhin-39" vertex="1">
           <mxGeometry y="26" width="430" height="26" as="geometry" />
@@ -288,7 +288,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="T1cl9DYxZVdn391FOhin-58" value="EGCHCaseDomain" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-5230" y="-2174" width="260" height="130" as="geometry" />
+          <mxGeometry x="-5360" y="-2304" width="260" height="130" as="geometry" />
         </mxCell>
         <mxCell id="T1cl9DYxZVdn391FOhin-64" value="- funcClassifCode: String    机能区分" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="T1cl9DYxZVdn391FOhin-58" vertex="1">
           <mxGeometry y="26" width="260" height="26" as="geometry" />
@@ -769,7 +769,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZoDWVtz-Jkx4ZJS01vSC-9" value="EGCHCaseQuote" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="ZoDWVtz-Jkx4ZJS01vSC-9" value="EGCHCaseQuote 案件报价" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-5450" y="-1350" width="370" height="364" as="geometry" />
         </mxCell>
         <mxCell id="ZoDWVtz-Jkx4ZJS01vSC-13" value="- caseNo: String    案件号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoDWVtz-Jkx4ZJS01vSC-9" vertex="1">
