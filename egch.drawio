@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-18T17:14:25.445Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="rUgqlSMIjXSa4E9gpfE3" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-18T17:14:31.720Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="YrT366o_GBRJJ7O1ZbYB" version="20.1.1" type="github">
   <diagram id="C1pqObuYRA7J3bohzl7f" name="Page-1">
     <mxGraphModel dx="9989" dy="3513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
       <root>
@@ -955,25 +955,22 @@
           <mxGeometry y="156" width="360" height="26" as="geometry" />
         </mxCell>
         <mxCell id="AKOIfwDsLfjij31EgtiH-1" value="EGCHCaseRole" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-6610" y="-2590" width="340" height="182" as="geometry" />
-        </mxCell>
-        <mxCell id="AKOIfwDsLfjij31EgtiH-2" value="- caseNo: String    案件号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AKOIfwDsLfjij31EgtiH-1">
-          <mxGeometry y="26" width="340" height="26" as="geometry" />
+          <mxGeometry x="-6610" y="-2590" width="340" height="156" as="geometry" />
         </mxCell>
         <mxCell id="AKOIfwDsLfjij31EgtiH-3" value="- caseId: EntityId    案件Id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AKOIfwDsLfjij31EgtiH-1">
-          <mxGeometry y="52" width="340" height="26" as="geometry" />
+          <mxGeometry y="26" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="AKOIfwDsLfjij31EgtiH-4" value="- resourceId: EntityId    资源Id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AKOIfwDsLfjij31EgtiH-1">
-          <mxGeometry y="78" width="340" height="26" as="geometry" />
+          <mxGeometry y="52" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="AKOIfwDsLfjij31EgtiH-5" value="- resourceType: ResourceType    资源类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AKOIfwDsLfjij31EgtiH-1">
-          <mxGeometry y="104" width="340" height="26" as="geometry" />
+          <mxGeometry y="78" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="AKOIfwDsLfjij31EgtiH-8" value="- roleId: RoleId    角色Id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="AKOIfwDsLfjij31EgtiH-1">
-          <mxGeometry y="130" width="340" height="26" as="geometry" />
+          <mxGeometry y="104" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="AKOIfwDsLfjij31EgtiH-9" value="- relatedConstuctionIds: Collection&lt;EntityId&gt;    工事Ids" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="AKOIfwDsLfjij31EgtiH-1">
-          <mxGeometry y="156" width="340" height="26" as="geometry" />
+          <mxGeometry y="130" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="AKOIfwDsLfjij31EgtiH-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="AKOIfwDsLfjij31EgtiH-1" target="GxSKCjoKLXwjwlFbCsBX-1">
           <mxGeometry relative="1" as="geometry">
