@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T14:23:00.738Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Glb3P_xWlPLEeJUnJtId" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-06T15:27:13.278Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="dDkok_-jYZ-ro5ZtF2J3" version="20.1.1" type="github">
   <diagram id="C1pqObuYRA7J3bohzl7f" name="Page-1">
-    <mxGraphModel dx="11062" dy="4114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="10422" dy="3754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -976,6 +976,38 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AKOIfwDsLfjij31EgtiH-7" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="AKOIfwDsLfjij31EgtiH-6" vertex="1" connectable="0">
+          <mxGeometry x="-0.1826" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7voy1fTgab76-XWfRuQu-1" value="ManHour" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-7260" y="-2397" width="350" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="7voy1fTgab76-XWfRuQu-2" value="- relatedInstanceId: EntityId    关联实体ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7voy1fTgab76-XWfRuQu-1">
+          <mxGeometry y="26" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7voy1fTgab76-XWfRuQu-3" value="- relatedInstanceType: InstanceType 关联实体类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7voy1fTgab76-XWfRuQu-1">
+          <mxGeometry y="52" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7voy1fTgab76-XWfRuQu-6" value="- type: EntityId    工时类型Id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7voy1fTgab76-XWfRuQu-1">
+          <mxGeometry y="78" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7voy1fTgab76-XWfRuQu-7" value="- value: BigDecimal    工时" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7voy1fTgab76-XWfRuQu-1">
+          <mxGeometry y="104" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7voy1fTgab76-XWfRuQu-8" value="- reportingDate: Date    报工日期" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7voy1fTgab76-XWfRuQu-1">
+          <mxGeometry y="130" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7voy1fTgab76-XWfRuQu-9" value="- additionInfo: JsonObject    附加信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7voy1fTgab76-XWfRuQu-1">
+          <mxGeometry y="156" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7voy1fTgab76-XWfRuQu-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="7voy1fTgab76-XWfRuQu-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-7020" y="-2072" as="sourcePoint" />
+            <mxPoint x="-6900" y="-1860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7voy1fTgab76-XWfRuQu-11" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7voy1fTgab76-XWfRuQu-10">
           <mxGeometry x="-0.1826" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
