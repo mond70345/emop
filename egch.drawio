@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-06T15:27:13.278Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="dDkok_-jYZ-ro5ZtF2J3" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-06T15:28:44.589Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="UWUZr7avJ6QTYYWKa2s0" version="20.1.1" type="github">
   <diagram id="C1pqObuYRA7J3bohzl7f" name="Page-1">
     <mxGraphModel dx="10422" dy="3754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
       <root>
@@ -998,7 +998,7 @@
         <mxCell id="7voy1fTgab76-XWfRuQu-8" value="- reportingDate: Date    报工日期" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7voy1fTgab76-XWfRuQu-1">
           <mxGeometry y="130" width="350" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="7voy1fTgab76-XWfRuQu-9" value="- additionInfo: JsonObject    附加信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7voy1fTgab76-XWfRuQu-1">
+        <mxCell id="7voy1fTgab76-XWfRuQu-9" value="- extraInfo: JsonObject    额外的信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7voy1fTgab76-XWfRuQu-1">
           <mxGeometry y="156" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="7voy1fTgab76-XWfRuQu-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="7voy1fTgab76-XWfRuQu-1">
