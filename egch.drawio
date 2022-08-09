@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-09T03:15:44.853Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="E1-z55qsdMLbCIJ0_DBK" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-09T12:26:47.572Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="C98yMkX1l7IvzKWSTqpf" version="20.2.3" type="github">
   <diagram id="C1pqObuYRA7J3bohzl7f" name="Page-1">
-    <mxGraphModel dx="10178" dy="3637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="10038" dy="3539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -981,7 +981,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7voy1fTgab76-XWfRuQu-1" value="ManHour" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="-7260" y="-2397" width="350" height="182" as="geometry" />
+          <mxGeometry x="-7260" y="-2397" width="350" height="208" as="geometry" />
         </mxCell>
         <mxCell id="7voy1fTgab76-XWfRuQu-2" value="- relatedInstanceId: EntityId    关联实体ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="7voy1fTgab76-XWfRuQu-1" vertex="1">
           <mxGeometry y="26" width="350" height="26" as="geometry" />
@@ -998,8 +998,11 @@
         <mxCell id="7voy1fTgab76-XWfRuQu-8" value="- reportingDate: LocalDate    报工日期" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="7voy1fTgab76-XWfRuQu-1" vertex="1">
           <mxGeometry y="130" width="350" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="7voy1fTgab76-XWfRuQu-9" value="- extraInfo: JsonObject    额外的信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="7voy1fTgab76-XWfRuQu-1" vertex="1">
+        <mxCell id="-uv8XcSORTL_1SxLZZrV-1" value="- process: Integer  完成度" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7voy1fTgab76-XWfRuQu-1">
           <mxGeometry y="156" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7voy1fTgab76-XWfRuQu-9" value="- extraInfo: JsonObject    额外的信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="7voy1fTgab76-XWfRuQu-1" vertex="1">
+          <mxGeometry y="182" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="7voy1fTgab76-XWfRuQu-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" parent="1" source="7voy1fTgab76-XWfRuQu-1" edge="1">
           <mxGeometry relative="1" as="geometry">
