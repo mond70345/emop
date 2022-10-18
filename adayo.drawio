@@ -1,1 +1,363 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T05:49:46.287Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.4.1" etag="3pDotHDYEhdr2_pHVdrz" type="github"><diagram id="aiaHSNKqSQD-4toXgjl5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-18T05:50:32.662Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="yKavSoBkIMIrb8bWUZkr" version="20.4.1" type="github">
+  <diagram id="aiaHSNKqSQD-4toXgjl5" name="第 1 页">
+    <mxGraphModel dx="10346" dy="4585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-1" value="Abstract Class" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-7880" y="-2420" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-2" value="Entity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-7760" y="-2420" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-3" value="Aggragate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-7640" y="-2420" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-4" value="DP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-7520" y="-2420" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="LjL9G1RvM96YT_lvFIRP-7" target="LjL9G1RvM96YT_lvFIRP-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-6" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LjL9G1RvM96YT_lvFIRP-5">
+          <mxGeometry x="-0.1826" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-7" value="DeliverableRelation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-7530" y="-2110" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-8" value="- primary: InstanceId    拥有者ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-7">
+          <mxGeometry y="26" width="500" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-9" value="- secondary: DeliverableId    交付物引用ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-7">
+          <mxGeometry y="52" width="500" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-7">
+          <mxGeometry y="78" width="500" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-11" value="+ initializeDocument(DocumentService docService, DocInstanceId folderId)    初始化文档" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-7">
+          <mxGeometry y="86" width="500" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-12" value="InstanceId" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-7930" y="-2260" width="330" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-13" value="- id: Long    实体ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-12">
+          <mxGeometry y="26" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-14" value="- type: InstanceType    实体类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-12">
+          <mxGeometry y="52" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-12">
+          <mxGeometry y="78" width="330" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-16" value="+ of(Long id, InstanceType type)    初始化实体ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-12">
+          <mxGeometry y="86" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-17" value="Attachment" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-7700" y="-1770" width="500" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-18" value="- primary: InstanceId    拥有者ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-17">
+          <mxGeometry y="26" width="500" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-19" value="- documentId: String    文档对象ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-17">
+          <mxGeometry y="52" width="500" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-20" value="- scope: String    作用域" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-17">
+          <mxGeometry y="78" width="500" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-17">
+          <mxGeometry y="104" width="500" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-22" value="+ initializeAttachment(DocumentService docService, DocInstanceId folderId)    初始化附件" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-17">
+          <mxGeometry y="112" width="500" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="LjL9G1RvM96YT_lvFIRP-17" target="LjL9G1RvM96YT_lvFIRP-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-7080" y="-1960" as="sourcePoint" />
+            <mxPoint x="-6880" y="-1869.4444444444443" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-24" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LjL9G1RvM96YT_lvFIRP-23">
+          <mxGeometry x="-0.1826" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-30" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-6700" y="-72" as="sourcePoint" />
+            <mxPoint x="-6700" y="-2990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-31" value="BaseEntity" style="swimlane;fontStyle=2;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-7050" y="-1858" width="320" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-32" value="- id: Long    唯一ID（全局唯一ID）" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-31">
+          <mxGeometry y="26" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-33" value="- lastModifer: String    最后修改者（用户名）" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-31">
+          <mxGeometry y="52" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-34" value="- lastModifiedTime: ZonedDateTime    最后修改时间" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-31">
+          <mxGeometry y="78" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-35" value="- creator: String    创建者（用户名）" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-31">
+          <mxGeometry y="104" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-36" value="- createdTime: ZonedDateTime    创建时间" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-31">
+          <mxGeometry y="130" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-37" value="- version: Long    版本" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-31">
+          <mxGeometry y="156" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-116" value="BaseWorkItem" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-7200" y="-1490" width="310" height="316" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-117" value="- type: WorkItemType    工作项类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-116">
+          <mxGeometry y="26" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-118" value="- name: String    名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-116">
+          <mxGeometry y="52" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-119" value="- projectKey: String    项目编码" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-116">
+          <mxGeometry y="78" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-120" value="- content: String    描述" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-116">
+          <mxGeometry y="104" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-121" value="- code: String    编码" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-116">
+          <mxGeometry y="130" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-122" value="- startDate: Date    计划开始时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-116">
+          <mxGeometry y="156" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-123" value="- finishDate: Date    计划结束时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-116">
+          <mxGeometry y="182" width="310" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-124" value="- actualStartDate: Date    实际开始时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-116">
+          <mxGeometry y="206" width="310" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-125" value="- actualFinishDate: Date    实际结束时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-116">
+          <mxGeometry y="230" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-126" value="- status: WorkflowStatusID    工作项状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-116">
+          <mxGeometry y="256" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-127" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-116">
+          <mxGeometry y="282" width="310" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-128" value="+ getExtProps(): JSONObject" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-116">
+          <mxGeometry y="290" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-129" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="LjL9G1RvM96YT_lvFIRP-116" target="LjL9G1RvM96YT_lvFIRP-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-6610" y="-1061" as="sourcePoint" />
+            <mxPoint x="-6844.698275862069" y="-1666" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-130" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LjL9G1RvM96YT_lvFIRP-129">
+          <mxGeometry x="-0.1826" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-131" value="Task" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-7230" y="-1070" width="370" height="546" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-132" value="- wbsCode: String    任务分解代码" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-131">
+          <mxGeometry y="26" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-133" value="- milestone: Boolean    是否里程碑" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-131">
+          <mxGeometry y="52" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-134" value="- remark: String    备注" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-131">
+          <mxGeometry y="78" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-135" value="- priorityId: PriorityId    优先级Id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-131">
+          <mxGeometry y="104" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-136" value="- parent: Task    父任务" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-131">
+          <mxGeometry y="130" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-137" value="- children: List&lt;Task&gt;    子任务" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-131">
+          <mxGeometry y="156" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-138" value="- relations: Set&lt;TaskRelation&gt;    作为前置任务时的关系" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-131">
+          <mxGeometry y="182" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-139" value="- sourceRelations: Set&lt;TaskRelation&gt;    作为后置任务时的关系" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-131">
+          <mxGeometry y="208" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-140" value="- duration: Double    计划工期（小时）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-131">
+          <mxGeometry y="234" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-141" value="- actualDuration: Double    实际工期（小时）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-131">
+          <mxGeometry y="260" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-142" value="- manHour: Double    计划工时（小时）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-131">
+          <mxGeometry y="286" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-143" value="- actualManHour: Double    实际工时" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-131">
+          <mxGeometry y="312" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-144" value="- completePercent: Double    进度" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-131">
+          <mxGeometry y="338" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-145" value="- principal: UserId    责任人Id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-131">
+          <mxGeometry y="364" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-146" value="- owningUsers: Set&lt;UserId&gt;    参与人Ids" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-131">
+          <mxGeometry y="390" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-147" value="- taskCost: EGCHTaskCost    任务成本" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-131">
+          <mxGeometry y="416" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-148" value="- defectTask: Boolean    是否不具合任务" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-131">
+          <mxGeometry y="442" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-149" value="- workingArea: EntityId    作业区" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-131">
+          <mxGeometry y="468" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-150" value="- workingEngineering: EntityId    作业区工程" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-131">
+          <mxGeometry y="494" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-151" value="- extProps: JSONObject    任务扩展属性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-131">
+          <mxGeometry y="520" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-152" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="LjL9G1RvM96YT_lvFIRP-131" target="LjL9G1RvM96YT_lvFIRP-116">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-7473.141149425288" y="-1014" as="sourcePoint" />
+            <mxPoint x="-7406.8652873563215" y="-1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-153" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LjL9G1RvM96YT_lvFIRP-152">
+          <mxGeometry x="-0.1826" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-202" value="Issue" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-7680" y="-1140" width="390" height="416" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-203" value="- category: DefectCategory    不具合类别" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-202">
+          <mxGeometry y="26" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-204" value="- remark: String    备注" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-202">
+          <mxGeometry y="52" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-205" value="- principal: UserId    担当者Id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-202">
+          <mxGeometry y="78" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-206" value="- reason: String    发生原因" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-202">
+          <mxGeometry y="104" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-207" value="- countermeasure: String    预防对策" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-202">
+          <mxGeometry y="130" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-208" value="- defectOccurredDate: String    实施日期" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-202">
+          <mxGeometry y="156" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-209" value="- disposalInstruction: String    处置指示内容" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-202">
+          <mxGeometry y="182" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-210" value="- qaPrincipal: UserId    品质保证责任者Id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-202">
+          <mxGeometry y="208" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-211" value="- qaRecommender: UserId    品质保证推荐员Id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-202">
+          <mxGeometry y="234" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-212" value="- modelName: String    机种名(案件带出)   只读" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-202">
+          <mxGeometry y="260" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-213" value="- saleArea: String    生产据点(案件带出)     只读" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-202">
+          <mxGeometry y="286" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-214" value="- partOrFacilityName: String    部品/设备名(案件带出)    只读" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-202">
+          <mxGeometry y="312" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-215" value="- responsibilityClassif: String    责任区分   动态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-202">
+          <mxGeometry y="338" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-216" value="- manufacturer: String    制作厂家    动态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-202">
+          <mxGeometry y="364" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-217" value="- drawingNo: String    图纸号    动态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-202">
+          <mxGeometry y="390" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-218" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.707;exitY=0.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="LjL9G1RvM96YT_lvFIRP-202" target="LjL9G1RvM96YT_lvFIRP-116">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-7035" y="-1060" as="sourcePoint" />
+            <mxPoint x="-7035" y="-1164" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-219" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LjL9G1RvM96YT_lvFIRP-218">
+          <mxGeometry x="-0.1826" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-220" value="WorkItemRelation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-7570" y="-1540" width="300" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-221" value="- primaryType: BasicWorkItemType    主对象类别" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-220">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-222" value="- primaryId:  EntityId    主对象ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-220">
+          <mxGeometry y="52" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-223" value="- secondaryType: BasicWorkItemType    关联对象类别" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-220">
+          <mxGeometry y="78" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-224" value="- secondaryId: EntityId    关联对象ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-220">
+          <mxGeometry y="104" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-225" value="- relationship: String    关系" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-220">
+          <mxGeometry y="130" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-226" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="LjL9G1RvM96YT_lvFIRP-220" target="LjL9G1RvM96YT_lvFIRP-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-7200.001149425288" y="-1474" as="sourcePoint" />
+            <mxPoint x="-7133.725287356322" y="-1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-227" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LjL9G1RvM96YT_lvFIRP-226">
+          <mxGeometry x="-0.1826" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-292" value="ManHour" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-7260" y="-2397" width="350" height="208" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-293" value="- relatedInstanceId: EntityId    关联实体ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-292">
+          <mxGeometry y="26" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-294" value="- relatedInstanceType: InstanceType 关联实体类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-292">
+          <mxGeometry y="52" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-295" value="- type: EntityId    工时类型Id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-292">
+          <mxGeometry y="78" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-296" value="- value: BigDecimal    工时" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-292">
+          <mxGeometry y="104" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-297" value="- reportingDate: LocalDate    报工日期" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-292">
+          <mxGeometry y="130" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-298" value="- process: Integer  完成度" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-292">
+          <mxGeometry y="156" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-299" value="- extraInfo: JsonObject    额外的信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjL9G1RvM96YT_lvFIRP-292">
+          <mxGeometry y="182" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-300" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="LjL9G1RvM96YT_lvFIRP-292">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-7020" y="-2072" as="sourcePoint" />
+            <mxPoint x="-6900" y="-1860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjL9G1RvM96YT_lvFIRP-301" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LjL9G1RvM96YT_lvFIRP-300">
+          <mxGeometry x="-0.1826" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
