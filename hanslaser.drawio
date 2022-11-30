@@ -1,1 +1,94 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T07:11:11.902Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.2.3" etag="DaTX19z8XNfg7bzF7fr7" type="github"><diagram id="zvtIiUgUU0xi6xXW93Rc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-30T07:37:01.914Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="M8Gd5Nj_yaZeU0zT1CfQ" version="20.2.3" type="github">
+  <diagram id="zvtIiUgUU0xi6xXW93Rc" name="第 1 页">
+    <mxGraphModel dx="1673" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-1" value="Project" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="590.0000000000002" width="320" height="608" as="geometry" />
+        </mxCell>
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-2" value="- name: String    项目名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CRbPXUOF6EQkAs0VAF6y-1">
+          <mxGeometry y="26" width="320" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-3" value="- description: String    描述" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CRbPXUOF6EQkAs0VAF6y-1">
+          <mxGeometry y="50" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-4" value="- content: String    项目内容" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CRbPXUOF6EQkAs0VAF6y-1">
+          <mxGeometry y="76" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-5" value="- status: ProjectStatus    状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CRbPXUOF6EQkAs0VAF6y-1">
+          <mxGeometry y="102" width="320" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-6" value="- type: ProjectType    项目类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CRbPXUOF6EQkAs0VAF6y-1">
+          <mxGeometry y="126" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-7" value="- category: ProjectCategory    项目类别" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CRbPXUOF6EQkAs0VAF6y-1">
+          <mxGeometry y="152" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-8" value="- currency: Currency    币种" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;labelBorderColor=none;labelBackgroundColor=none;fontFamily=Georgia;shadow=0;" vertex="1" parent="CRbPXUOF6EQkAs0VAF6y-1">
+          <mxGeometry y="178" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-9" value="- urgency: Urgency    紧急程度" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CRbPXUOF6EQkAs0VAF6y-1">
+          <mxGeometry y="204" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-10" value="- securityLevel: SecurityLevel    安全级别" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CRbPXUOF6EQkAs0VAF6y-1">
+          <mxGeometry y="230" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-11" value="- priority: Priority    优先级" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CRbPXUOF6EQkAs0VAF6y-1">
+          <mxGeometry y="256" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-12" value="- owner: UserId    项目负责人" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CRbPXUOF6EQkAs0VAF6y-1">
+          <mxGeometry y="282" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-13" value="- options: ProjectOptions    项目选项" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CRbPXUOF6EQkAs0VAF6y-1">
+          <mxGeometry y="308" width="320" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-14" value="- plannedBudget: BigDecimal    项目预算" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CRbPXUOF6EQkAs0VAF6y-1">
+          <mxGeometry y="332" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-15" value="- actualBudget: BigDecimal    实际费用" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CRbPXUOF6EQkAs0VAF6y-1">
+          <mxGeometry y="358" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-16" value="- plannedStartTime: Date    计划开始时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CRbPXUOF6EQkAs0VAF6y-1">
+          <mxGeometry y="384" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-17" value="- plannedFinishTime: Date     计划结束时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CRbPXUOF6EQkAs0VAF6y-1">
+          <mxGeometry y="410" width="320" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-18" value="- actualStartTime: Date    实际开始时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CRbPXUOF6EQkAs0VAF6y-1">
+          <mxGeometry y="434" width="320" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-19" value="- actualFinishTime: Date     实际结束时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CRbPXUOF6EQkAs0VAF6y-1">
+          <mxGeometry y="458" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-20" value="- actualStartTime: Date     实际开始时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CRbPXUOF6EQkAs0VAF6y-1">
+          <mxGeometry y="484" width="320" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-21" value="- plannedDuration: Integer    计划工期" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CRbPXUOF6EQkAs0VAF6y-1">
+          <mxGeometry y="508" width="320" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-22" value="- actualDuration: Integer    实际工期" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CRbPXUOF6EQkAs0VAF6y-1">
+          <mxGeometry y="532" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-23" value="- actualProgress: Double    实际进度" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CRbPXUOF6EQkAs0VAF6y-1">
+          <mxGeometry y="558" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-24" value="- extProps: JSONObject    扩展属性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CRbPXUOF6EQkAs0VAF6y-1">
+          <mxGeometry y="584" width="320" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-29" value="Abstract Class" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-30" value="Entity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-31" value="Aggragate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CRbPXUOF6EQkAs0VAF6y-32" value="DP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
